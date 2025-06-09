@@ -1,0 +1,10 @@
+{
+    "lang": {
+        "RollSelf": "Self Roll",
+        "RollBlind": "Blind GM Roll",
+        "RollPrivate": "Private GM Roll",
+        "Public": "Public Roll",
+        "Whisper": "Whisper",
+        "autoReveal": "Auto Revealed"
+    }
+}

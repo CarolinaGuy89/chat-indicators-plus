@@ -1,0 +1,31 @@
+{
+  "id": "chat-indicators-plus",
+  "title": "Chat Indicators+",
+  "description": "Adds a textual tag to chat messages to easily identify the roll type.  Optionally enable specific rolls to be public regardless of how they are rolled, such as player heals or GM damage rolls.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "CarolinaGuy89",
+      "discord": "carolinaguy#2129",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }
+  ],
+  "scripts": [
+    "scripts/chat-indicators.js",
+    "scripts/settings.js"
+  ],
+  "styles": [
+    "chat-indicators.css"
+  ]
+}
