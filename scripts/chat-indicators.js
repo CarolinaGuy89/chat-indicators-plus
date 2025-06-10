@@ -13,12 +13,17 @@ Hooks.on("preCreateChatMessage", (msg, data, options, userId) => {
     const isRoll = msg.rolls?.length > 0;
     const isWhisper = msg.whisper.length > 0;
     if (isDmgRoll && isGm) {
-        const settingsShowGMdmg = game.settings.get("chat-indicators-plus", "autoRevealGMDamage");
-        if (settingsShowGMdmg) {
+        const autoRevealSetting = game.settings.get("chat-indicators-plus", "autoRevealGMDamage");
+        if (autoRevealSetting) {
             indicator = game.i18n.localize("lang.autoReveal")
             whisper = []              
         }
     } else if (isHealing && !isGm) {
+        const autoRevealSetting = game.settings.get("chat-indicators-plus", "autoRevealPlayerHeal");
+        if (autoRevealSetting) {
+            indicator = game.i18n.localize("lang.autoReveal")
+            whisper = []              
+        }
         indicator = game.i18n.localize("lang.autoReveal")
         whisper = []
     } else if (isBlind) {
