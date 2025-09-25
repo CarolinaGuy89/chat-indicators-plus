@@ -29,7 +29,7 @@
     "chat-indicators.css"
   ],
   "url": "https://github.com/CarolinaGuy89/chat-indicators-plus",
-	"download": "",
-	"manifest": "",
+	"download": "https://github.com/CarolinaGuy89/chat-indicators-plus/releases/download/1.0.0/module.zip",
+	"manifest": "https://github.com/CarolinaGuy89/chat-indicators-plus/releases/latest/download/module.json",
 	"bugs": "https://github.com/CarolinaGuy89/chat-indicators-plus/issues"
 }
