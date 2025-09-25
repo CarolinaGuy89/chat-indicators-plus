@@ -28,8 +28,8 @@
   "styles": [
     "chat-indicators.css"
   ],
-  "url": "",
+  "url": "https://github.com/CarolinaGuy89/chat-indicators-plus",
 	"download": "",
 	"manifest": "",
-	"bugs": ""
+	"bugs": "https://github.com/CarolinaGuy89/chat-indicators-plus/issues"
 }
